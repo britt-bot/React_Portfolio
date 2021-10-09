@@ -1,0 +1,23 @@
+.footer {
+  /* font-family: 'Tenor Sans', sans-serif; */
+  height: auto !important;
+  padding: 10px;
+  /* background-color: rgb(235, 195, 64); */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+#copyright {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#quote {
+  font-style: italic !important;
+  font-size: 13px;
+}

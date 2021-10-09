@@ -1,0 +1,27 @@
+#scrollBtn {
+  position: fixed;
+  bottom: 0;
+  right: 2px;
+  width: 20px;
+}
+
+#scrollBtn button {
+  padding: 0;
+}
+
+#scrollBtn .bi {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  #scrollBtn {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    width: 20px;
+  }
+
+  #scrollBtn .bi {
+    font-size: 30px;
+  }
+}

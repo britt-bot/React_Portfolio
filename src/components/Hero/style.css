@@ -1,0 +1,38 @@
+#hero {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center;
+  margin-left: 170px;
+  margin-top: 5px;
+}
+
+#introContainer {
+  margin-left: 40px;
+  margin-right: -25px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+#fullName {
+  /* font-family: 'Otomanopee One', sans-serif; */
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#quote {
+  text-transform: uppercase;
+  /* font-family: 'Tenor Sans', sans-serif; */
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#heroImg {
+  width: 50%;
+  height: 50%;
+  margin-top: 10px;
+}

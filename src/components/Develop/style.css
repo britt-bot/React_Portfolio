@@ -1,0 +1,74 @@
+#develop {
+  margin-top: 15px !important;
+}
+
+.card {
+  border: 1px solid white;
+  /* box-shadow: 2px 3px #000000; */
+}
+
+.cardContainerDevelop {
+  height: 505px !important;
+  margin-top: 15px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.card-header {
+  /* font-family: 'Otomanopee One', sans-serif; */
+  border-bottom: 1px solid black;
+  font-size: 23px;
+}
+
+.card-header, .card-footer {
+  background: hotpink !important;
+  color: #fff;
+  text-align: center;
+}
+
+.card-body {
+  background: #789a9f;
+}
+
+.card-footer {
+  border-top: 1px solid hotpink;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+ 
+.card-footer a {
+  color: hotpink;
+  font-size: 25px;
+}
+
+.card-footer a:hover {
+  color: #000;
+}
+
+.portfolioImg {
+  width: 100%;
+  height: 190px;
+}
+
+.projectDescription {
+  width: 100%;
+  height: 135px;
+  overflow-y: scroll;
+  font-size: 17px;
+}
+
+.projectDescription::-webkit-scrollbar {
+  width: 5px;
+}
+
+.projectDescription::-webkit-scrollbar-track {
+  background: #789a9f;
+}
+
+.projectDescription::-webkit-scrollbar-thumb {
+  background: hotpink !important;
+}
+
+.projectDescription p {
+  /* font-family: 'Tenor Sans', sans-serif; */
+}

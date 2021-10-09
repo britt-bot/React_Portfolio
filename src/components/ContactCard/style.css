@@ -1,0 +1,97 @@
+#contact {
+  margin-top: -40px !important;
+  height: 50% !important;
+}
+
+#contactCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 1px;
+  box-shadow: 2px 2px hotpink;
+  margin-top: 25px !important;
+  margin-left: 125px !important;
+}
+
+#contactImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+#contactInfoContainer, #contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contactInfoContainer {
+  width: 60%;
+}
+
+#contactImg {
+  height: 200px;
+  padding-bottom: 5px;
+}
+
+#collaborate {
+  /* font-family: 'Otomanopee One', sans-serif; */
+  font-size: 16px;
+}
+
+#collaborate, .contact-icons{
+  font-size: 25px;
+}
+
+#infoName {
+  /* font-family: 'Otomanopee One', sans-serif; */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#infoTitle {
+  text-transform: uppercase;
+  /* font-family: 'Tenor Sans', sans-serif; */
+  font-size: 20px;
+}
+
+#email {
+  /* font-family: 'Tenor Sans', sans-serif; */
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#email:hover {
+  color: hotpink;
+}
+
+#contactIconContainer {
+  /* font-family: 'Tenor Sans', sans-serif; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.contact-icons {
+  font-size: 15px;
+  font-style: normal;
+  color: #212529;
+  margin: 5px;
+}
+
+.contact-icons:hover {
+  color: hotpink;
+}
+
+.contactText {
+  display: none;
+}

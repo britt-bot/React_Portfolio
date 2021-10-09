@@ -1,0 +1,54 @@
+#about {
+  margin-top: 15px !important;
+}
+
+#aboutInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: -125px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-right: 90px;
+  margin-top: 150px;
+  height: auto;
+  width: 90%;
+  /* font-family: 'Tenor Sans', sans-serif; */
+  border: 2px solid hotpink;
+  box-shadow: 2px 2px hotpink;
+  padding: 2px;
+}
+
+#aboutImgContainer {
+  width: 90%;
+}
+
+#aboutImg {
+  margin-top: 10px;
+  width: 50%;
+}
+
+#resume a {
+  font-size: 17px;
+}
+
+#info h4, #field {
+  font-weight: 700;
+}
+
+#resume a {
+  color: white;
+}
+
+#resume a:hover {
+  color: hotpink;
+  font-weight: 700;
+}

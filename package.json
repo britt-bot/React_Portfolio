@@ -1,0 +1,63 @@
+{
+  "name": "react_portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.1",
+    "bootstrap-icons": "^1.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^3.2.0",
+    "eslint": "^7.32.0",
+    "express": "^4.17.1",
+    "mdb-react-ui-kit": "^1.2.0",
+    "rbx": "^2.2.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.16.1",
+    "react-icons": "^4.2.0",
+    "react-recaptcha": "^2.3.10",
+    "react-recaptcha-google": "^1.1.1",
+    "react-scripts": "^4.0.3",
+    "react-skills": "^1.27.0",
+    "react-toastify": "^7.0.4",
+    "reactstrap": "^8.10.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4",
+    "sweetalert2": "^11.1.7",
+    "tailwindcss": "^2.2.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
