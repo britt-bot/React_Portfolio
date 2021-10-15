@@ -9,7 +9,7 @@ export default function Hero() {
       <div id='hero'>
         <div id='introContainer' className='text-center'>
           <h1 id='fullName'>Britt Bot</h1>
-          <h3 id='quote'>Positivity is contagious. Spread it.™</h3>
+          <h3 id='heroQuote'>Positivity is contagious. Spread it.™</h3>
         </div>
         <div>
          <ImageContainer id='heroImg' src='assets/images/self.jpg' alt='Hero Image'/>

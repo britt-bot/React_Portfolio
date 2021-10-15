@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaGlobeAmericas } from 'react-icons/fa';
 import './style.css'
 
 export default function DevelopPortfolioCards({title, image, built, description, github, deployed}) {
@@ -9,21 +10,22 @@ export default function DevelopPortfolioCards({title, image, built, description,
           {title}
         </div>
         <div className='card-body d-flex flex-column justify-content-evenly align-items-center'>
-          <div className='portfolioImg d-flex justify-content-center mb-2'>
+          <div className='portfolioImgDev d-flex justify-content-center mb-2'>
             <img src={image} alt={title} className='img-thumbnail'/>
           </div>
           <div className='projectDescription'>
             <p>
               {description}
             </p>
+            <br />
             <p>
               <strong>Built with:</strong> {built}
             </p>
           </div>
         </div>
         <div className='card-footer'>
-          <a href={github} target='_blank' rel="noreferrer"><i className='bi bi-github mx-2'></i></a>
-          <a href={deployed} target='_blank' rel="noreferrer"><i className='bi bi-link-45deg mx-2'></i></a>
+          <a href={github} target='_blank' rel="noreferrer"><FaGithub /></a>
+          <a href={deployed} target='_blank' rel="noreferrer"><FaGlobeAmericas /></a>
         </div>
       </div>
     </div>

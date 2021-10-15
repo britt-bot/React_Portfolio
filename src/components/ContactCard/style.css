@@ -1,26 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+
 #contact {
-  margin-top: -40px !important;
+  margin-top: -25px !important;
   height: 50% !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 #contactCardContainer {
   display: flex;
   flex-direction: row;
   justify-content: center !important;
-  align-items: center;
-  width: 80%;
+  align-items: center !important;
+  width: 65%;
   padding: 10px;
-  border: 1px solid white;
-  border-radius: 1px;
-  box-shadow: 2px 2px hotpink;
+  border: 2px solid hotpink;
+  border-radius: 20px;
+  box-shadow: 3px 3px #789a9f;
   margin-top: 25px !important;
-  margin-left: 125px !important;
+  margin-left: 290px !important;
+  font-family: 'Poppins', sans-serif !important; 
 }
 
 #contactImgContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   width: 40%;
 }
@@ -28,7 +33,7 @@
 #contactInfoContainer, #contactInfo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -39,10 +44,17 @@
 #contactImg {
   height: 200px;
   padding-bottom: 5px;
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+#contactImg:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
 }
 
 #collaborate {
-  /* font-family: 'Otomanopee One', sans-serif; */
   font-size: 16px;
 }
 
@@ -51,33 +63,21 @@
 }
 
 #infoName {
-  /* font-family: 'Otomanopee One', sans-serif; */
-  font-size: 25px;
+  font-size: xx-large;
   font-weight: bold;
+  color: hotpink !important;
 }
 
 #infoTitle {
   text-transform: uppercase;
-  /* font-family: 'Tenor Sans', sans-serif; */
   font-size: 20px;
-}
-
-#email {
-  /* font-family: 'Tenor Sans', sans-serif; */
-  font-size: 15px;
-  color: white;
-  text-decoration: none;
-}
-
-#email:hover {
-  color: hotpink;
+  font-style: italic;
 }
 
 #contactIconContainer {
-  /* font-family: 'Tenor Sans', sans-serif; */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   margin-bottom: 5px;
 }
 
@@ -94,4 +94,15 @@
 
 .contactText {
   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #contactCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 65%; 
+    margin-left: 110px !important;
+  }
 }

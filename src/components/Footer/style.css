@@ -1,23 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
 .footer {
-  /* font-family: 'Tenor Sans', sans-serif; */
   height: auto !important;
   padding: 10px;
   /* background-color: rgb(235, 195, 64); */
-  bottom: 0;
-  left: 0;
+  /* bottom: 0;
+  left: 0; */
   width: 100%;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center !important;
 }
 
 p {
   margin-bottom: 0 !important;
 }
 
+a {
+  color: hotpink !important;
+  font-size: x-large;
+}
+
+a:hover {
+  color: white !important;
+}
+
 #copyright {
   font-weight: bold;
   font-size: 13px;
+  color: hotpink;
 }
 
-#quote {
+#footquote {
   font-style: italic !important;
   font-size: 13px;
+  color: #789a9f;
 }

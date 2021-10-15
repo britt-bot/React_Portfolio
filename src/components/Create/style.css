@@ -1,23 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
 #create {
-  margin-top: -40px !important;
+  margin-top: -45px !important;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card {
-  border: 1px solid white;
-  /* box-shadow: 2px 3px #000000; */
+  border: 2px solid white !important;
+  border-radius: 20px !important;
+  box-shadow: 3px 3px #789a9f;
 }
 
 .cardContainerCreate {
-  height: 360px !important;
+  height: 485px !important;
   margin-top: 15px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card-header {
-  /* font-family: 'Otomanopee One', sans-serif; */
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #212529;
+  border-radius: 20px 20px 0 0 !important;
   font-size: 23px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card-header, .card-footer {
@@ -27,48 +33,38 @@
 }
 
 .card-body {
-  background: #789a9f;
+  background: #212529;
 }
 
 .card-footer {
   border-top: 1px solid hotpink;
   padding-top: 0;
   padding-bottom: 0;
+  color:#212529;
+  border-radius: 0 0 20px 20px !important;
 }
  
 .card-footer a {
-  color: hotpink;
+  color: white;
   font-size: 25px;
 }
 
 .card-footer a:hover {
-  color: #000;
+  color: #212529;
 }
 
-.portfolioImg {
-  width: 100%;
-  height: 190px;
+.portfolioImgCre {
+  width: 350px;
+  height: 315px;
 }
 
-.projectDescription {
-  width: 100%;
-  height: 135px;
-  overflow-y: scroll;
-  font-size: 17px;
+.img-thumbnail {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
 }
 
-.projectDescription::-webkit-scrollbar {
-  width: 5px;
-}
-
-.projectDescription::-webkit-scrollbar-track {
-  background: #789a9f;
-}
-
-.projectDescription::-webkit-scrollbar-thumb {
-  background: hotpink !important;
-}
-
-.projectDescription p {
-  /* font-family: 'Tenor Sans', sans-serif; */
+.img-thumbnail:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
 }

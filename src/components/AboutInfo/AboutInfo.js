@@ -7,10 +7,11 @@ export default function AboutInfo() {
   return (
     <div id='aboutInfo'>
       <div id='aboutImgContainer'>
-        <ImageContainer id='aboutImg' src='assets/images/fetariot.jpg' alt='About Image'/>
+        <ImageContainer id='aboutImg' src='assets/images/britt.png' alt='About Image'/>
       </div>
       <div id='info'>
-        <h4 className='text-center'>Creative, by nature. Developer, by curiosity.</h4>
+        <h4 className='text-center'><span id='creative'>Creative</span>, by nature. 
+        <br /><span id='developer'>Developer</span>, by curiosity.</h4>
         <p className='text-center'>
           <br />
           <br />
@@ -30,8 +31,9 @@ export default function AboutInfo() {
           and have an even better chance to thrive. If you or your organization need to get online or have any open source projects 
           going on, lemme know! 
         </p>
+        <br />
         <div id='resume' className="d-flex justify-content-center">
-          <button className="btn btn-outlink-light">
+          <button className="btn btn-outline-light">
             <a href="assets\docs\Brittany_C_Resume.pdf" target="_blank">
                 <FaFileDownload />
                 <br />Here's My Resume

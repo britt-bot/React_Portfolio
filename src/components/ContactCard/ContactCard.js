@@ -4,7 +4,7 @@ import './style.css';
 
 export default function ContactCard() {
   return (
-    <div id='contactCardContainer' className='mt-2'>
+    <div id='contactCardContainer'>
       <div id='contactImgContainer'>
         <h3 id='collaborate' className='text-center'>Let's Collaborate!</h3>
         <img src='assets/images/fetariot.jpg' alt='Collaborate' id='contactImg'/>
@@ -12,7 +12,7 @@ export default function ContactCard() {
       <div id='contactInfoContainer'>
         <div id='contactInfo'>
           <p id='infoName'>Britt Bot</p>
-          <p id='infoTitle'>Full Stack Developer + Graphic Designer</p>
+          <p id='infoTitle' className='text-center'>Full Stack Developer + Graphic Designer</p>
         </div>
         <div id='contactIconContainer'>
         <a href="mailto:aeonianmeraki@gmail.com"><FaEnvelope /><span className='contactText'>Email</span></a>
@@ -21,6 +21,5 @@ export default function ContactCard() {
         </div>
       </div>
     </div>
-
   )
 };

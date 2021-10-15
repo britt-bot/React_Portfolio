@@ -8,35 +8,35 @@ import PortfolioCardContainer from '../components/Create/PortfolioCardContainer'
 export default function Create() {
   const projectsCreate = [
     {
-      title: 'image',
-      image: 'assets/images/replay.png',
-      description: 'An image created using...',
+      title: 'Good Bikes Stickers',
+      image: 'assets/images/goodbikesstickers.png',
+      description: 'Stickers created for fictional brand "Good Bikes".',
     },
     {
-      title: 'image',
-      image: 'assets/images/tech-blog.png',
-      description: 'An image created using...',
+      title: 'Good Bikes Logos',
+      image: 'assets/images/goodbikeslogos.png',
+      description: 'Logos created for fictional brand "Good Bikes".',
     },
     {
-      title: 'image',
-      image: 'assets/images/google-book-search.png',
-      description: 'An image created using...',
+      title: 'LineUP',
+      image: 'assets/images/lineupcollage.png',
+      description: 'Website banner created for brand "LineUP".',
     },
-    {
-      title: 'image',
-      image: 'assets/images/bookclub.png',
-      description: 'An image created using...',
-    },
-    {
-      title: 'image',
-      image: 'assets/images/employee-directory.png',
-      description: 'An image created using...',
-    },
-    {
-      title: 'image',
-      image: 'assets/images/weather-dash.jpeg',
-      description: 'An image created using...',
-    },
+    // {
+    //   title: 'image',
+    //   image: 'assets/images/bookclub.png',
+    //   description: 'An image created using...',
+    // },
+    // {
+    //   title: 'image',
+    //   image: 'assets/images/employee-directory.png',
+    //   description: 'An image created using...',
+    // },
+    // {
+    //   title: 'image',
+    //   image: 'assets/images/weather-dash.jpeg',
+    //   description: 'An image created using...',
+    // },
   ]
 
   const renderCards = ({title, image, built, description, github, deployed}) => {
@@ -44,10 +44,7 @@ export default function Create() {
     <CreatePortfolioCards 
       title={title} 
       image={image} 
-      built={built}
       description={description} 
-      github={github} 
-      deployed={deployed}
     />)
   }
 
