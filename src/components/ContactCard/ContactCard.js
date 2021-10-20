@@ -7,7 +7,7 @@ export default function ContactCard() {
     <div id='contactCardContainer'>
       <div id='contactImgContainer'>
         <h3 id='collaborate' className='text-center'>Let's Collaborate!</h3>
-        <img src='assets/images/fetariot.jpg' alt='Collaborate' id='contactImg'/>
+        <img src='assets/images/thecatbrood.jpg' alt='Collaborate' id='contactImg'/>
       </div>
       <div id='contactInfoContainer'>
         <div id='contactInfo'>

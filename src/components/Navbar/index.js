@@ -4,7 +4,7 @@ import './style.css';
 
 export default function Navbar() {
   return (
-    <Nav className="justify-content-center" activeKey="/home">
+    <Nav className="justify-content-center nav" activeKey="/home">
       <Nav.Item>
         <Nav.Link href="/home">Home</Nav.Link>
       </Nav.Item>
