@@ -16,7 +16,7 @@ export default function ContactCard() {
         <div id='contactIconContainer'>
           <a href="mailto:aeonianmeraki@gmail.com"><FaEnvelope /><span className='contactText'>Email</span></a>
           <a href="https://github.com/britt-bot"><FaGithub /><span className='contactText'>GitHub</span></a>
-          <a href="https://www.linkedin.com/in/brittbot/"><FaLinkedin /><span className='contactText'>LinkedIn</span></a>
+          <a href="https://www.linkedin.com/in/brittbot"><FaLinkedin /><span className='contactText'>LinkedIn</span></a>
         </div>
       </div>
 
