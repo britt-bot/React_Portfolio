@@ -2,7 +2,7 @@
 
 .footer {
   height: auto !important;
-  padding: 10px;
+  padding-top: 10px !important;
   /* background-color: rgb(235, 195, 64); */
   /* bottom: 0;
   left: 0; */

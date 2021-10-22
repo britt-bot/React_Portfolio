@@ -25,9 +25,9 @@
   margin-top: 150px;
   height: auto;
   width: 75%;
-  border: 2px solid hotpink;
+  border: 3px solid hotpink;
   border-radius: 20px;
-  box-shadow: 3px 3px #789a9f;
+  box-shadow: 3px 3px 2px #789a9f;
   padding: 2px;
   font-family: 'Poppins', sans-serif !important;
 }

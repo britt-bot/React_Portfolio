@@ -8,11 +8,11 @@
 .card {
   border: 2px solid white !important;
   border-radius: 20px !important;
-  box-shadow: 3px 3px #789a9f;
+  box-shadow: 3px 3px 2px #789a9f;
 }
 
 .cardContainerDevelop {
-  height: 645px !important;
+  height: 630px !important;
   margin-top: 15px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;

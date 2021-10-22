@@ -14,9 +14,9 @@
   align-items: center !important;
   width: 40%;
   padding: 10px;
-  border: 2px solid hotpink;
+  border: 3px solid hotpink;
   border-radius: 20px;
-  box-shadow: 3px 3px #789a9f;
+  box-shadow: 3px 3px 2px #789a9f;
   margin-top: 25px !important;
   margin-left: 450px !important;
   font-family: 'Poppins', sans-serif !important; 

@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
 
 #create {
-  margin-top: -45px !important;
+  margin-top: -25px !important;
   font-family: 'Poppins', sans-serif;
 }
 
 .card {
   border: 2px solid white !important;
   border-radius: 20px !important;
-  box-shadow: 3px 3px #789a9f;
+  box-shadow: 3px 3px 2px #789a9f;
 }
 
 .cardContainerCreate {
