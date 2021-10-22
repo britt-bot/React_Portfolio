@@ -20,7 +20,7 @@ export default function Create() {
     {
       title: 'LineUP',
       image: 'assets/images/lineupcollage.png',
-      description: 'Website banner created for brand "LineUP".',
+      description: 'Website banner created for app "LineUP".',
     },
     // {
     //   title: 'image',
