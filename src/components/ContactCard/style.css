@@ -12,13 +12,13 @@
   flex-direction: row;
   justify-content: center !important;
   align-items: center !important;
-  width: 65%;
+  width: 40%;
   padding: 10px;
   border: 2px solid hotpink;
   border-radius: 20px;
   box-shadow: 3px 3px #789a9f;
   margin-top: 25px !important;
-  margin-left: 290px !important;
+  margin-left: 450px !important;
   font-family: 'Poppins', sans-serif !important; 
 }
 
@@ -27,7 +27,7 @@
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  width: 40%;
+  width: 50%;
 }
 
 #contactInfoContainer, #contactInfo {
@@ -38,12 +38,11 @@
 }
 
 #contactInfoContainer {
-  width: 60%;
+  width: 50%;
 }
 
 #contactImg {
   height: 200px;
-  padding-bottom: 5px;
   border-radius: 20px;
   transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -53,15 +52,6 @@
 #contactImg:hover {
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
-}
-
-#collaborate {
-  font-size: 16px;
-  color: #789a9f;
-}
-
-#collaborate, .contact-icons{
-  font-size: 25px;
 }
 
 #infoName {
@@ -79,23 +69,23 @@
 #contactIconContainer {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  margin-bottom: 5px;
 }
 
-.contact-icons {
-  font-size: 15px;
-  font-style: normal;
-  color: #212529;
-  margin: 5px;
-}
-
-.contact-icons:hover {
+#contactIconContainer a {
   color: hotpink;
+  padding: 2px;
+}
+
+#contactIconContainer a:hover {
+  color: #789a9f !important;
 }
 
 .contactText {
   display: none;
+}
+
+.symbol {
+  color: #789a9f;
 }
 
 @media only screen and (max-width: 768px) {
@@ -108,3 +98,14 @@
     margin-left: 110px !important;
   }
 }
+
+
+
+/* #collaborate {
+  font-size: 16px;
+  color: #789a9f;
+}
+
+#collaborate, .contact-icons{
+  font-size: 25px;
+} */

@@ -10,8 +10,8 @@ export default function AboutInfo() {
         <ImageContainer id='aboutImg' src='assets/images/britt.png' alt='About Image'/>
       </div>
       <div id='info'>
-        <h4 className='text-center'><span id='creative'>Creative</span>, by nature. 
-        <br /><span id='developer'>Developer</span>, by curiosity.</h4>
+        <h4 className='text-center'><span id='creative'>Creative</span>, by <span id='nature'>nature</span>. 
+        <br /><span id='developer'>Developer</span>, by <span id='curious'>curiosity</span>.</h4>
         <p className='text-center'>
           <br />
           <br />

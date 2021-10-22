@@ -70,6 +70,20 @@
   margin-bottom: -10px;
 }
 
+#nature {
+  text-decoration: underline;
+  font-style: italic;
+  text-decoration-color: hotpink;
+  color: #789a9f;
+}
+
+#curious {
+  text-decoration: underline;
+  font-style: italic;
+  text-decoration-color: hotpink;
+  color: #789a9f;
+}
+
 .btn {
   background-color: hotpink !important;
   font-weight: bold !important;

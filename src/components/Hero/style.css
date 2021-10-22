@@ -22,6 +22,7 @@
   font-size: 100px;
   font-weight: bold;
   color: hotpink;
+  text-shadow: 3px 4px 2px #789a9f;
 }
 
 #heroQuote {
@@ -46,6 +47,7 @@
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
 }
+
 
 @media only screen and (max-width: 768px) {
   #hero {
