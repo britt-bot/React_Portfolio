@@ -31,6 +31,7 @@ This table of contents is to make it easy for users to find what they need.
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
 [REACT Portfolio Repo](https://github.com/britt-bot/20-React_Portfolio)
+
 [REACT Portfolio Deploy](https://brittbotportfolio.herokuapp.com)
 
 
