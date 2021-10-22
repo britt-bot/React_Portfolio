@@ -31,9 +31,8 @@ This table of contents is to make it easy for users to find what they need.
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
 [REACT Portfolio Repo](https://github.com/britt-bot/20-React_Portfolio)
+[REACT Portfolio Deploy](https://brittbotportfolio.herokuapp.com)
 
-<!-- [REACT Portfolio Deploy]()
- -->
 
 ## Usage 
 
@@ -50,15 +49,17 @@ Third Party Assets:
 
 [React Icons](https://react-icons.github.io/react-icons)
 
-[Google Fonts ](https://fonts.google.com/)
+[React Animations](https://www.npmjs.com/package/react-animations)
+
+[Google Fonts](https://fonts.google.com/)
 
 [Bootstrap](https://getbootstrap.com/)
 
 [NPM](https://www.npmjs.com/)
 
-[reCAPTCHA](https://www.google.com/recaptcha/about/)
+<!-- [reCAPTCHA](https://www.google.com/recaptcha/about/)
 
-[EmailJS](https://www.emailjs.com/docs/)
+[EmailJS](https://www.emailjs.com/docs/) -->
 
 
 ## License
