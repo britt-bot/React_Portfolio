@@ -14,15 +14,6 @@ p {
   margin-bottom: 0 !important;
 }
 
-a {
-  color: hotpink !important;
-  font-size: x-large;
-}
-
-a:hover {
-  color: white !important;
-}
-
 #copyright {
   font-weight: bold;
   font-size: 13px;

@@ -20,6 +20,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .nav {
+  .nav-link {
+    font-size: larger !important;
   }
 }

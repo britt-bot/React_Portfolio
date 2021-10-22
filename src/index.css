@@ -14,7 +14,6 @@ div[data-reactroot] {
   margin: 0;
 }
 
-
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,6 +24,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: white !important;
 }
+
+a {
+  color: hotpink !important;
+  font-size: x-large;
+}
+
+a:hover {
+  color: white !important;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
