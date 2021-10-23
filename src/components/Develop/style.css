@@ -51,8 +51,8 @@
 }
 
 .portfolioImgDev {
-  width: 400px !important;
-  height: 325px !important;
+  width: 350px !important;
+  height: 315px !important;
 }
 
 .img-thumbnail {
@@ -87,4 +87,17 @@
 
 .projectDescription::-webkit-scrollbar-thumb {
   background: hotpink !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .cardContainerDevelop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 65%; 
+    margin-top: -10px !important;
+    /* margin-left: 80px !important; */
+  }
 }

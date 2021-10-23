@@ -70,3 +70,19 @@
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
 }
+
+
+@media only screen and (max-width: 768px) {
+  .cardContainerCreate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 65%; 
+    margin-top: 5px !important;
+  }
+
+  #create {
+    margin-top: -15px !important;
+  }
+}

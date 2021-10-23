@@ -95,7 +95,11 @@
     justify-content: center !important;
     align-items: center !important;
     width: 65%; 
-    margin-left: 110px !important;
+    margin-left: 80px !important;
+  }
+
+  #contact {
+    margin-top: -5px !important;
   }
 }
 
