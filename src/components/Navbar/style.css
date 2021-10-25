@@ -21,6 +21,7 @@
 
 @media only screen and (max-width: 768px) {
   .nav-link {
-    font-size: medium !important;
+    font-size: small !important;
+    justify-content: right !important;
   }
 }
