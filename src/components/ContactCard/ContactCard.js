@@ -11,7 +11,7 @@ export default function ContactCard() {
           <p id='infoName'>Britt Bot</p>
           <p id='infoTitle' className='text-center'>Full Stack Developer 
           <br /><span className='symbol'>+</span> 
-          <br/>Graphic Designer</p>
+          <br />Graphic Designer</p>
         </div>
         <div id='contactIconContainer'>
           <a href="mailto:aeonianmeraki@gmail.com"><FaEnvelope /><span className='contactText'>Email</span></a>
