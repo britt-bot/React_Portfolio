@@ -115,7 +115,12 @@
     margin-bottom: -125px;
   }
 
+  #aboutImg {
+    width: 90% !important;
+  }
+
   #info {
     margin-left: 55px;
+    width: 90%;
   }
 }
