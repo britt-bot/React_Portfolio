@@ -57,7 +57,9 @@
 #infoName {
   font-size: xx-large;
   font-weight: bold;
-  color: hotpink !important;
+  color: hotpink;
+  text-shadow: 2px 3px 1px #789a9f;
+  justify-content: center !important;
 }
 
 #infoTitle {
