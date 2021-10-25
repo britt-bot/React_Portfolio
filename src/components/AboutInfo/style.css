@@ -116,11 +116,11 @@
   }
 
   #aboutImg {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   #info {
     margin-left: 55px;
-    width: 90%;
+    width: 95%;
   }
 }
