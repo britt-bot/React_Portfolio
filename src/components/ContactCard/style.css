@@ -101,6 +101,10 @@
   #contact {
     margin-top: -5px !important;
   }
+
+  .infoName {
+    align-items: center;
+  }
 }
 
 
