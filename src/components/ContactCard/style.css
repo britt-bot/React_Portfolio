@@ -59,7 +59,6 @@
   font-weight: bold;
   color: hotpink;
   text-shadow: 2px 3px 1px #789a9f;
-  justify-content: center !important;
 }
 
 #infoTitle {
@@ -100,12 +99,16 @@
     margin-left: 80px !important;
   }
 
+  #contactInfoContainer {
+    justify-content: center !important;
+  }
+
   #contact {
     margin-top: -5px !important;
   }
 
   .infoName {
-    align-items: center;
+    justify-content: center !important;
   }
 }
 
