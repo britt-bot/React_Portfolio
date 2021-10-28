@@ -22,8 +22,8 @@ export default function AboutInfo() {
           and Graphic Design including: Marketing, Photography, Music, Makeup Artistry, Social Media, Legal and Logistics. 
           <br />
           <br />
-          I have overcome several obstacles and fought several battles, in my quest to change the path of my life. 
-          These have given me the drive and determination, to be and do the best, at everything I take on and to never give up. 
+          I have overcome several obstacles and fought several battles in my quest to change the path of my life. 
+          These have given me the drive and determination to be and do the best at everything I take on, and to never give up. 
           They have also taught me compassion, empathy and the ability to see and think about things from different angles and views.
           <br />
           <br />
