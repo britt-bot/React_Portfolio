@@ -11,9 +11,9 @@ Here are the links to the previous versions of my Portfolio:
 
 [Portfolio Repo](https://github.com/britt-bot/Portfolio)
 
-[Portfolio 2 Repo](https://github.com/britt-bot/08-updated_portfolio)
+[Portfolio 2 Repo](https://github.com/britt-bot/Portfolio_2)
 
-[Portfolio 3 Repo](https://github.com/britt-bot/16-Updated_Portfolio)
+[Portfolio 3 Repo](https://github.com/britt-bot/Portfolio_3)
 
 
 ## Table of Contents 
