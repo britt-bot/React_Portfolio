@@ -58,9 +58,9 @@ Third Party Assets:
 
 [NPM](https://www.npmjs.com/)
 
-<!-- [reCAPTCHA](https://www.google.com/recaptcha/about/)
+[reCAPTCHA](https://www.google.com/recaptcha/about/)
 
-[EmailJS](https://www.emailjs.com/docs/) -->
+[EmailJS](https://www.emailjs.com/docs/)
 
 
 ## License
