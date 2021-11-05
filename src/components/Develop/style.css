@@ -100,4 +100,8 @@
     margin-top: -10px !important;
     /* margin-left: 80px !important; */
   }
+
+  .projectDescription::-webkit-scrollbar {
+    width: 10px;
+  }
 }
