@@ -60,7 +60,11 @@
   }
 
   #heroImg {
-    margin-left: 35px;
+    align-self: center;
+    align-items: center;
+    justify-content: center !important;
+    margin: 0 auto;
+    margin-left: 10px;
     width: 90% !important;
   }
 }
