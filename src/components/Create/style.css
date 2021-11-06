@@ -82,7 +82,25 @@
     margin-top: 5px !important;
   }
 
+  /* .portfolioImgCre {
+    max-width: 80% !important;
+  }
+
+  .img-thumbnail {
+    max-width: 50% !important;
+  } */
+
   #create {
     margin-top: -15px !important;
   }
 }
+/* 
+@media only screen and (max-width: 480px) {
+  .portfolioImgCre {
+    max-width: 80% !important;
+  }
+
+  .img-thumbnail {
+    max-width: 50% !important;
+  }
+} */
