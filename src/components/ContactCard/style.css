@@ -8,7 +8,7 @@
 }
 
 #contactCardContainer {
-  display: flex !important;
+  display: flex;
   flex-direction: row;
   align-items: center !important;
   align-self: center;
