@@ -39,7 +39,7 @@ export default function Create() {
     // },
   ]
 
-  const renderCards = ({title, image, built, description, github, deployed}) => {
+  const renderCards = ({title, image, description}) => {
     return (
     <CreatePortfolioCards 
       title={title} 

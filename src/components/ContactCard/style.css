@@ -8,17 +8,20 @@
 }
 
 #contactCardContainer {
-  display: flex;
+  display: flex !important;
   flex-direction: row;
-  justify-content: center !important;
   align-items: center !important;
-  width: 40%;
+  align-self: center;
+  justify-content: center !important;
+  max-width: 35%;
+  height: 100%;
   padding: 10px;
   border: 3px solid hotpink;
   border-radius: 20px;
   box-shadow: 3px 3px 2px #789a9f;
+  margin: 0 auto;
   margin-top: 25px !important;
-  margin-left: 565px !important;
+  /* margin-left: 610px !important; */
   font-family: 'Poppins', sans-serif !important; 
 }
 
@@ -95,7 +98,7 @@
     flex-direction: column;
     justify-content: center !important;
     align-items: center !important;
-    width: 85%; 
+    max-width: 85%; 
     margin-left: 30px !important;
   }
 

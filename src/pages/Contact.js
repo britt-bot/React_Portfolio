@@ -1,8 +1,7 @@
 import React from 'react';
-import ContactCard from '../components/ContactCard/ContactCard';
 import Container from '../components/Container/Container';
 import Heading from '../components/Heading/Heading';
-
+import ContactCard from '../components/ContactCard/ContactCard';
 
 function Contact() {
   return (

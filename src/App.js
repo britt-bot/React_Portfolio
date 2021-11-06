@@ -6,7 +6,7 @@ import Develop from './pages/Develop';
 import Create from './pages/Create';
 import Contact from './pages/Contact'
 import Footer from './components/Footer';
-import ScrollButton from './components/ScrollButton';
+// import ScrollButton from './components/ScrollButton';
 
 export default function App() {
   return <>
@@ -17,6 +17,6 @@ export default function App() {
     <Create />  
     <Contact />
     <Footer />
-    <ScrollButton />
+    {/* <ScrollButton /> */}
   </>
 };
