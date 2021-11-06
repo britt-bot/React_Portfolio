@@ -7,13 +7,13 @@
   flex-direction: row;
   justify-content: center !important;
   align-items: center !important;
-  margin-top: 5px;
   font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
   margin-left: 25px;
 }
 
 #introContainer {
-  margin-left: 250px;
+  margin-left: 475px;
   display: flex;
   flex-direction: column;
 }
@@ -36,8 +36,8 @@
   width: 50%;
   height: 50%;
   margin-top: 10px;
+  margin-right: 190px;
   border-radius: 20px;
-  margin-right: 65px;
   transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
