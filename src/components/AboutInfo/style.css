@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 25px !important;
   margin-right: 90px;
   margin-top: 160px;
   height: auto;
@@ -51,44 +51,59 @@
   filter: grayscale(100%); /* FF 35+ */
 }
 
-#info h4, #field {
+#info h4, #task {
   font-weight: bold;
 }
 
-#field {
+#task {
   color: #789a9f;
 }
 
-#creative {
+#headTask {
   color: hotpink !important;
   margin-top: 15px;
   margin-bottom: 2px;
 }
 
-#developer {
-  color: hotpink !important;
-  margin-bottom: -10px;
-}
-
-#nature {
+#headQuality {
   text-decoration: underline;
   font-style: italic;
   text-decoration-color: hotpink;
   color: #789a9f;
 }
 
-#curious {
-  text-decoration: underline;
+#fewName {
+  color: hotpink;
+}
+
+.nameLine {
+  font-size: small;
   font-style: italic;
-  text-decoration-color: hotpink;
-  color: #789a9f;
+}
+
+#expTask {
+  font-style: italic;
+  color: hotpink;
+}
+
+ul {
+  color: #789a9f !important;
+  margin: 130px;
+  padding-left: 25px !important;
+  font-size: 15px !important;
+}
+
+li::marker{
+  color: hotpink;
 }
 
 .btn {
   background-color: hotpink !important;
   font-weight: bold !important;
-  border: none !important;
-}
+  /* border: none !important; */
+  border: 3px solid hotpink;
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px #789a9f;}
 
 .btn:hover {
   font-weight: bold !important;
@@ -122,5 +137,9 @@
   #info {
     margin-left: 55px;
     width: 100%;
+  }
+  ul {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
