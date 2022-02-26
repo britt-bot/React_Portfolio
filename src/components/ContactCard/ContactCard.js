@@ -9,9 +9,9 @@ export default function ContactCard() {
       <div id='contactInfoContainer'>
         <div id='contactInfo'>
           <p id='infoName'>Britt Bot</p>
-          <p id='infoTitle' className='text-center'>Full Stack Developer 
-          <br /><span className='symbol'>+</span> 
-          <br />Graphic Designer</p>
+          <p id='infoTitle' className='text-center'>Creative Extraordinaire</p>
+          {/* <br /><span className='symbol'>+</span> 
+          <br />Graphic Designer */}
         </div>
         <div id='contactIconContainer'>
           <a href="mailto:aeonianmeraki@gmail.com"><FaEnvelope /><span className='contactText'>Email</span></a>
