@@ -2,7 +2,7 @@
 
 
 #contact {
-  margin-top: -25px !important;
+  margin-top: 150px !important;
   height: 50% !important;
   font-family: 'Poppins', sans-serif !important;
 }
@@ -20,7 +20,7 @@
   border-radius: 20px;
   box-shadow: 3px 3px 2px #789a9f;
   margin: 0 auto;
-  margin-top: 25px !important;
+  margin-top: 20px !important;
   /* margin-left: 610px !important; */
   font-family: 'Poppins', sans-serif !important; 
 }
@@ -107,7 +107,11 @@
   }
 
   #contact {
-    margin-top: -5px !important;
+    margin-top: -110px !important;
+  }
+
+  #contactImg {
+    height: 50%;
   }
 
   .infoName {

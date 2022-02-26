@@ -14,8 +14,8 @@ export default function AboutInfo() {
         <br /><span id='headTask'>Developer</span>, by <span id='headQuality'>curiosity</span>.</h4>
         <p className='text-center'>
           <br />
-          <span id='task'>Graphic Designer</span> | <span id='task'>Full Stack Developer</span> | <span id='task'>Photographer</span> | <span id='task'>Updo Stylist</span> | <span id='task'>Model</span> | <span id='task'>Vocalist</span> 
-          <br /><p className='nameLine'>(<span id='fewName'>just to name a few</span>)</p>
+          <div id='taskList'><span id='task'>Graphic Designer</span> | <span id='task'>Full Stack Developer</span> | <span id='task'>Photographer</span> | <span id='task'>Updo Stylist</span> | <span id='task'>Model</span> | <span id='task'>Vocalist</span> 
+          <br /><p className='nameLine'>(<span id='fewName'>just to name a few</span>)</p></div>
           <br />
           User-centric creative leveraging a background in art and design that thrives in collaborative team environments. 
           Proven ability to easily and beautifully bring client visions to life. Recognized for effective interpersonal communication skills 
@@ -28,19 +28,20 @@ export default function AboutInfo() {
           <br />
           <br />
           I have overcome several obstacles and fought several battles in my quest to change the path of my life. 
+
           <ul>
             <li>Quit smoking after 15 years of smoking at least a pack a day.</li>
             <li>Lost over 115 pounds by changing my diet and adding some form of exercise to my daily routine.</li>
             <li>Overcome and gotten treatment for years of untreated mental disorders caused by childhood sexual and mental abuse that continued into my early thirties.</li>
           </ul>
 
-          These have given me the drive and determination to be and do the best at everything I take on, and to never give up. 
-          They have also taught me compassion, empathy and the ability to see and think about things from different angles and views.
+          These have given me the drive and determination to be and do the best at everything I take on and to never give up. 
+          They have also taught me compassion, empathy and the ability to see and think about things from multiple different angles and views.
           <br />
           <br />
-          I want to make a difference where possible, so I am always looking for ways to help people and organizations get online 
-          and have an even better chance to thrive. If you or your organization need to get online or have any open source projects 
-          going on, lemme know! 
+          Everything I have been through has made me want to make a difference where possible. I am always looking for ways to help people 
+          and organizations get online or bring their visions to life, so they have an even better chance to thrive. If you or your organization needs help bringing 
+          visions to life, help to get online or have any open source projects going on, lemme know! 
         </p>
         <br />
         <div id='resume' className="d-flex justify-content-center">
