@@ -114,6 +114,7 @@
   #contactImg {
     /* width: fit-content;  */
     height: auto !important;
+    margin-left: -5px !important;
   }
 
   .infoName {
