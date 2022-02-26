@@ -92,7 +92,7 @@
   color: #789a9f;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #contactCardContainer {
     display: flex;
     flex-direction: column;
@@ -111,7 +111,6 @@
   }
 
   #contactImg {
-    /* max-width: 100% !important;  */
     width: fit-content; 
   }
 
