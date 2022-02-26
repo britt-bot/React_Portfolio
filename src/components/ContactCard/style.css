@@ -111,7 +111,7 @@
   }
 
   #contactImg {
-    width: auto;
+    max-width: auto !important; 
   }
 
   .infoName {
