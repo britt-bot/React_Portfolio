@@ -19,7 +19,7 @@ export default function CreateCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
             src="assets/images/goodbikeslogos.png"
@@ -32,6 +32,18 @@ export default function CreateCarousel() {
         </Carousel.Item>
 
         <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100"
+            src="assets/images/lineuplogo.png"
+            alt="LineUP Logo"
+          />
+          <Carousel.Caption>
+            <h3 className='projectTitle'>LineUP Logo</h3>
+            <p>Logo for LineUP</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
             src="assets/images/lineupcollage.png"
@@ -55,7 +67,7 @@ export default function CreateCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
             src="assets/images/poster.png"
@@ -79,7 +91,7 @@ export default function CreateCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
             src="assets/images/mockup.jpg"
@@ -91,7 +103,44 @@ export default function CreateCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        {/* <Carousel.Item interval={500}>
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100"
+            src="assets/images/brittCIR.png"
+            alt="Vector Sticker of Britt Bot"
+          />
+          <Carousel.Caption>
+            <h3 className='projectTitle'>Vector Sticker</h3>
+            <p>Vector Sticker of Britt Bot</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item interval={1500}>
+          <img
+            className="d-block w-100"
+            src="assets/images/ht4lt.png"
+            alt="HT4LT Rainbow Jean Jacket Logo"
+          />
+          <Carousel.Caption>
+            <h3 className='projectTitle'>High Times 4 Low Times Logo</h3>
+            <p>Logo for podcast "High Times 4 Low Times"</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100"
+            src="assets/images/caladium.png"
+            alt="Caladium Care Sheet"
+          />
+          <Carousel.Caption>
+            <h3 className='projectTitle'>Caladium Care Sheet</h3>
+            <p>Caladium Care Sheet for Abbott-Ipco, Inc.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        
+        {/* <Carousel.Item interval={2000}>
           <img
             className="d-block w-100"
             src="image link"

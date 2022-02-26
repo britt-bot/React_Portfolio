@@ -15,11 +15,11 @@ export default function DevelopCarousel() {
           />
           <Carousel.Caption>
             <h3 className='projectTitle'>LineUP</h3>
-            <p>A MERN application for users to search and follow festivals around the world.</p>
+            <p>MERN application for users to search and follow festivals around the world.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
             src="assets/images/globalnibz.png"
@@ -27,7 +27,7 @@ export default function DevelopCarousel() {
           />
           <Carousel.Caption>
             <h3 className='projectTitle'>Global Nibz</h3>
-            <p>A web application allows users to search recipes from around the world.</p>
+            <p>Web application allowing users to search recipes from around the world.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -39,11 +39,11 @@ export default function DevelopCarousel() {
           />
           <Carousel.Caption>
             <h3 className='projectTitle'>Tech Blog</h3>
-            <p>A CMS-style blog site utilized to create, publish, view, and review posts.</p>
+            <p>CMS-style blog site utilized to create, publish, view, and review posts.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
             src="assets/images/notetaker.png"
@@ -51,7 +51,7 @@ export default function DevelopCarousel() {
           />
           <Carousel.Caption>
             <h3 className='projectTitle'>Note Taker</h3>
-            <p>An OOP note taking application utilized by users to write and save notes.</p>
+            <p>OOP note taking application utilized by users to write and save notes.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -63,11 +63,11 @@ export default function DevelopCarousel() {
           />
           <Carousel.Caption>
             <h3 className='projectTitle'>Team Roster Generator</h3>
-            <p>A Node.js command-line application, using Object-Oriented Programming to generate a Team Roster.</p>
+            <p>Node.js command-line application, using OOP to generate a team roster.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
             src="assets/images/workouttracker.png"
