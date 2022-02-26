@@ -112,9 +112,9 @@
   }
 
   #contactImg {
-    /* width: fit-content;  */
+    width: 85%;
     height: auto !important;
-    margin-left: -5px !important;
+    /* margin-left: -5px !important; */
   }
 
   .infoName {
