@@ -4,7 +4,7 @@ import './style.css'
 
 export default function CreateCarousel() {
   return (
-    <div id='createCarousel' style={{ display: 'block', width: 700, padding: 30 }}>
+    <div id='createCarousel' style={{ display: 'block', width: 500, padding: 30 }}>
       {/* <h4>GRAPHIC DESIGN</h4> */}
       <Carousel>
         <Carousel.Item interval={2000}>

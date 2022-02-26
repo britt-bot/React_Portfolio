@@ -2,7 +2,7 @@
 
 
 #contact {
-  margin-top: 150px !important;
+  margin-top: 10px !important;
   height: 50% !important;
   font-family: 'Poppins', sans-serif !important;
 }
@@ -46,7 +46,7 @@
 
 #contactImg {
   width: 200px;
-  height: auto;
+  height: 200px;
   border-radius: 20px;
   transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -108,11 +108,12 @@
   }
 
   #contact {
-    margin-top: -110px !important;
+    margin-top: -30px !important;
   }
 
   #contactImg {
-    width: fit-content; 
+    /* width: fit-content;  */
+    height: auto !important;
   }
 
   .infoName {

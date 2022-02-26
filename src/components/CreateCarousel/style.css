@@ -2,8 +2,8 @@
 
 
 #create {
-  margin-top: -697px !important;
-  margin-left: 800px;
+  margin-top: -657px !important;
+  margin-left: 600px;
 }
 
 #createCarousel {
@@ -11,7 +11,6 @@
   margin-left: 1000px !important;
   font-family: 'Poppins', sans-serif;
   margin: auto;
-  height: 640px !important;
   text-align: center;
 }
 
@@ -21,7 +20,7 @@ img {
   transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
-  height: 640px;
+  height: 400px;
 }
 
 img:hover {
@@ -43,7 +42,7 @@ img:hover {
 
 @media only screen and (max-width: 768px) {
   #create {
-    margin-top: -90px !important;
+    margin-top: -30px !important;
     margin-left: auto;
   }
 
