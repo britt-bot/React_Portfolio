@@ -110,6 +110,10 @@
     margin-top: -110px !important;
   }
 
+  #contactImg {
+    width: auto;
+  }
+
   .infoName {
     justify-content: center !important;
   }
